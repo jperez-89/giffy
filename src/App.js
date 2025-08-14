@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <section className="App-content">
         <button type="button">Cambiar Gif</button>
-        <ListOfGif keyword={"gato"} />
+        <ListOfGif keyword={"gallina"} />
         {/* Se puede usar tambien
            ListOfGif(gifs)
         */}
