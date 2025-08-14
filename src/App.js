@@ -6,10 +6,8 @@ function App() {
     <div className="App">
       <section className="App-content">
         <button type="button">Cambiar Gif</button>
+        {/* Renderiza el componente ListOfGif pasando la palabra clave "gallina" como prop */}
         <ListOfGif keyword={"gallina"} />
-        {/* Se puede usar tambien
-           ListOfGif(gifs)
-        */}
       </section>
     </div>
   );
